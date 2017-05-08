@@ -1,0 +1,87 @@
+html { color: #000; background: #fff; overflow-y: scroll; -webkit-text-size-adjust: 100%; }
+
+* { outline: 0; -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
+
+html, body { font-family: Helvetica; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; }
+
+input, select, textarea { font-size: 100%; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; display: block; }
+
+address, caption, cite, code, dfn, em, th, i { font-style: normal; font-weight: 500; }
+
+ol, ul { list-style: none; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+
+a:hover { text-decoration: none; }
+
+a { text-decoration: none; }
+
+input, button { background: none; border: 0 none; }
+
+/*.wraps{
+    width:rem(540px);
+    @media screen and ( min-width:540px ){
+        margin:0 auto;
+    }   
+}*/
+.swiper-container { width: 100%; height: 6.10667rem; }
+
+.swiper-container .swiper-wrapper { width: 100%; height: 6.10667rem; }
+
+.swiper-container .swiper-wrapper .swiper-slide { width: 100%; height: 6.10667rem; }
+
+.swiper-container .swiper-wrapper .swiper-slide img { width: 100%; height: 100%; }
+
+.swiper-container .swiper-pagination span { background: #fff; width: 0.13333rem; height: 0.13333rem; }
+
+.icontent { margin-bottom: 1.53333rem; padding: 0.53333rem; }
+
+.icontent .input-box { border-radius: 0.13333rem; position: relative; padding: 0.26667rem; padding-left: 1.06667rem; background: #fff; border: 1px solid #0099ff; }
+
+.icontent input { border: 0 none; width: 100%; background: #fff; }
+
+.icontent .icon-search { left: 0.3rem; top: 0.2rem; display: block; position: absolute; width: 0.46667rem; height: 0.46667rem; background: url(../images/icon-search.png) no-repeat; background-size: 0.46667rem 0.46667rem; }
+
+.tips { margin-top: 0.26667rem; padding-left: 0.4rem; margin-bottom: 0.66667rem; }
+
+.tips div { margin-right: 0.13333rem; display: inline-block; }
+
+.tips div span { color: #999; display: inline-block; vertical-align: middle; }
+
+.tips div .icon-next { width: 0.48rem; height: 0.12rem; background: url(../images/icon-next.png) no-repeat; background-size: 0.48rem 0.12rem; }
+
+.tips .one .icon-one { display: inline-block; width: 0.37333rem; height: 0.33333rem; background: url(../images/icon-one.png) no-repeat; background-size: 0.37333rem 0.33333rem; }
+
+.tips .two .icon-two { display: inline-block; width: 0.30667rem; height: 0.32rem; background: url(../images/icon-two.png) no-repeat; background-size: 0.30667rem 0.32rem; }
+
+.tips .three .icon-three { display: inline-block; width: 0.30667rem; height: 0.32rem; background: url(../images/icon-three.png) no-repeat; background-size: 0.30667rem 0.32rem; }
+
+.tips .four .icon-four { display: inline-block; width: 0.30667rem; height: 0.32rem; background: url(../images/icon-four.png) no-repeat; background-size: 0.30667rem 0.32rem; }
+
+.index-bg { position: relative; height: 5.74667rem; width: 8.81333rem; background: url(../images/index-bg.png) no-repeat; background-size: 8.81333rem 5.74667rem; }
+
+.index-bg .icon-sao { left: 4rem; position: absolute; width: 1.66667rem; height: 2.18667rem; background: url(../images/icon-sao.png) no-repeat; background-size: 1.66667rem 2.18667rem; }
+
+.index-bg .icon-dengpao { top: 3.06667rem; left: 8.26667rem; position: absolute; width: 0.46667rem; height: 0.66667rem; background: url(../images/icon-dengpao.png) no-repeat; background-size: 0.46667rem 0.66667rem; }
+
+.menu { background: #fff; width: 100%; height: 1.53333rem; position: fixed; bottom: 0; left: 0; padding-top: 0.26667rem; display: flex; border-top: 1px solid #ccc; }
+
+.menu a { color: #999; flex: 1; text-align: center; }
+
+.menu a .icon-qian { display: inline-block; width: 0.6rem; height: 0.56rem; background: url(../images/icon-qian.png) no-repeat; background-size: 0.6rem 0.56rem; }
+
+.menu a .icon-dingdan { display: inline-block; width: 0.53333rem; height: 0.49333rem; background: url(../images/icon-dingdan.png) no-repeat; background-size: 0.6rem 0.56rem; }
+
+.menu a .icon-zixun { display: inline-block; width: 0.69333rem; height: 0.58667rem; background: url(../images/icon-zixun.png) no-repeat; background-size: 0.69333rem 0.58667rem; }
+
+.menu a .icon-profile { display: inline-block; width: 0.42667rem; height: 0.49333rem; background: url(../images/icon-dingdan.png) no-repeat; background-size: 0.42667rem 0.49333rem; }
+
+.menu a .icon-text { margin-top: 0.08rem; text-align: center; display: block; font-size: 0.32rem; }

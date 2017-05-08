@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title></title>
+	<meta charset="utf-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<script src="js/flexible.min.js"></script>
+	<link rel="apple-touch-icon" href="favicon.png">
+	<link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+	<title>XpApp</title>
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="css/shark.css">
 </head>
 <body>
-	<h1>哈哈哈哈</h1>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+				<div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+				<div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="icontent">
+			<div class="input-box">
+				<input placeholder="填写汽车铭牌中的17位VIN码"  type="text" value="">
+				<span class="icon-search"></span>
+			</div>
+			<div class="tips">
+				<div class="one">
+					<span class="icon-one"></span>
+					<span>扫名牌</span>
+					<span class="icon-next"></span>
+				</div>
+				<div class="two">
+					<span class="icon-two"></span>
+					<span>定车型</span>
+					<span class="icon-next"></span>
+				</div>
+				<div class="three">
+					<span class="icon-three"></span>
+					<span>询配下单</span>
+					<span class="icon-next"></span>
+				</div>
+				<div class="four">
+					<span class="icon-four"></span>
+					<span>比价格</span>
+				</div>
+			</div>
+			<div class="index-bg">
+				<div class="icon-sao"></div>
+				<div class="icon-dengpao"></div>
+			</div>
+		</div>
+		<div class="menu">
+			<a href="javascript:;">
+				<span class="icon-qian"></span>
+				<span class="icon-text">询价</span>
+			</a>
+			<a href="javascript:;">
+				<span class="icon-dingdan"></span>
+				<span class="icon-text">采购订单</span>
+			</a>
+			<a href="javascript:;">
+				<span class="icon-zixun"></span>
+				<span class="icon-text">资讯</span>
+			</a>
+			<a href="javascript:;">
+				<span class="icon-profile"></span>
+				<span class="icon-text">我的</span>
+			</a>
+		</div>
 </body>
+
+<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript">
+	var mySwiper = new Swiper('.swiper-container',{pagination : '.swiper-pagination',loop : true})
+</script>
+</script>
 </html>
