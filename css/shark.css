@@ -82,6 +82,6 @@ input, button { background: none; border: 0 none; }
 
 .menu a .icon-zixun { display: inline-block; width: 0.69333rem; height: 0.58667rem; background: url(../images/icon-zixun.png) no-repeat; background-size: 0.69333rem 0.58667rem; }
 
-.menu a .icon-profile { display: inline-block; width: 0.42667rem; height: 0.49333rem; background: url(../images/icon-dingdan.png) no-repeat; background-size: 0.42667rem 0.49333rem; }
+.menu a .icon-profile { display: inline-block; width: 0.42667rem; height: 0.49333rem; background: url(../images/icon-profile.png) no-repeat; background-size: 0.42667rem 0.49333rem; }
 
 .menu a .icon-text { margin-top: 0.08rem; text-align: center; display: block; font-size: 0.32rem; }
